@@ -1,5 +1,4 @@
 <!--
-  designed by olly#9085
   coded by zenternal#0212
 -->
 <?
@@ -32,8 +31,8 @@ session_start();
 
 
 		
-  <audio src="http://178.62.29.135:8010/radio.mp3?<?php echo time(); ?>" id="stream" preload="none" data-paused="false">
-  <source src="http://178.62.29.135:8010/radio.mp3?<?php echo time(); ?>" type="audio/mpeg">Your browser does not support the audio element.</audio>
+  <audio src="http://abstractradio.atrnetworks.co.uk/radio/8000/radio.mp3<?php echo time(); ?>" id="stream" preload="none" data-paused="false">
+  <source src="http://abstractradio.atrnetworks.co.uk/radio/8000/radio.mp3<?php echo time(); ?>" type="audio/mpeg">Your browser does not support the audio element.</audio>
   </audio>
   <script>stream.volume = 0.1;</script>
 
